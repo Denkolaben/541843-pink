@@ -7,11 +7,11 @@
   <body>
     <header class="main-header">
       <a class="main-header__logo logo" href="#">
-        <img class="logo__logo-image" src="http://placehold.it/150x100" width="75" height="22" alt="Логотип сайта Pink">
+        <img class="logo__img" src="http://placehold.it/150x100" width="75" height="22" alt="Логотип сайта Pink">
       </a>
       <nav class="main-nav">
         <button class="main-nav__toggle" type="button"></button>
-        <ul class="main-nav_list site-list">
+        <ul class="main-nav__list site-list">
           <li class="site-list__item">
             <a href="#">Главная</a>
           </li>
@@ -27,34 +27,34 @@
         </ul>
       </nav>
     </header>
-    <main class="page-main">
+    <main class="main">
       <h1 class="visually-hidden">Приложение для обработки фотографий "Pink"</h1>
       <section class="promo-app">
         <h2 class="visually-hidden">Ссылки на скачивание приложения</h2>
         <button class="promo-app__button button" type="button">Скачать приложение</button>
-        <div class="promo-app__store-links">
-          <a class="promo-app__store-link" href="#">App Store</a>
-          <a class="promo-app__store-link" href="#">Google store</a>
-          <a class="promo-app__store-link" href="#">Windows store</a>
+        <div class="promo-app__wrap">
+          <a class="promo-app__link" href="#">App Store</a>
+          <a class="promo-app__link" href="#">Google store</a>
+          <a class="promo-app__link" href="#">Windows store</a>
         </div>
-        <p class="promo-app__store-info">Доступно для Iphone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+        <p class="promo-app__info">Доступно для Iphone, iPad, Android, Windows Phone, OS X, Windows 8</p>
       </section>
-      <section class="promo-advantages">
+      <section class="advantages">
         <h2 class="visually-hidden">О приложении</h2>
-        <b class="promo-advantages__slogan">Устали от серости мегаполиса?</b>
-        <b class="promo-advantages__slogan">Нам есть, что вам предложить!</b>
-        <ul class="promo-advantages__list">
-          <li class="promo-advantages__item">
-            <h3 class="promo-advantages__title">Поднимает настроение</h3>
-            <p class="promo-advantages__description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+        <b class="advantages__slogan">Устали от серости мегаполиса?</b>
+        <b class="advantages__slogan">Нам есть, что вам предложить!</b>
+        <ul class="advantages__list">
+          <li class="advantages__item">
+            <h3 class="advantages__title">Поднимает настроение</h3>
+            <p class="advantages__description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
           </li>
-          <li class="promo-advantages__item">
-            <h3 class="promo-advantages__title">Меняет мир вокруг</h3>
-            <p class="promo-advantages__description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+          <li class="advantages__item">
+            <h3 class="advantages__title">Меняет мир вокруг</h3>
+            <p class="advantages__description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
           </li>
-          <li class="promo-advantages__item">
-            <h3 class="promo-advantages__title">Заводит новых друзей</h3>
-            <p class="promo-advantages__description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+          <li class="advantages__item">
+            <h3 class="advantages__title">Заводит новых друзей</h3>
+            <p class="advantages__description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
           </li>
         </ul>
       </section>
@@ -63,15 +63,15 @@
           <h2 class="visually-hidden">Отзывы</h2>
           <div class="feedback__list slider__list">
             <blockquote class="feedback__item">
-              <cite class="feedback__author-name">Николай Петров</cite>
+              <cite class="feedback__author">Николай Петров</cite>
               <p class="feedback__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
             </blockquote>
             <blockquote class="feedback__item">
-              <cite class="feedback__author-name">Николай Петров</cite>
+              <cite class="feedback__author">Николай Петров</cite>
               <p class="feedback__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
             </blockquote>
             <blockquote class="feedback__item">
-              <cite class="feedback__author-name">Николай Петров</cite>
+              <cite class="feedback__author">Николай Петров</cite>
               <p class="feedback__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
             </blockquote>
           </div>
@@ -149,10 +149,12 @@
         </div>
       </section>
       <footer class="index-footer">
-        <p>Остались вопросы? Свяжитесь с нами!</p>
-        <p class="index-footer__telephone"><b>Звоните:</b><a href="tel:+78125556666">+7(812)555-66-66</a></p>
-        <p class="index-footer__mail"><b>Пишите:</b><a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></p>
-        <p class="index-footer__adress"><b>Приезжайте в гости:</b><a href="https://goo.gl/maps/mviAc69wfHA2">ул. Большая Конюшенная, 19/8</a>
+        <section class="contacts">
+          <p class="contacts__intro">Остались вопросы? Свяжитесь с нами!</p>
+          <p class="contacts__telephone"><b>Звоните:</b><a href="tel:+78125556666">+7(812)555-66-66</a></p>
+          <p class="contacts__mail"><b>Пишите:</b><a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></p>
+          <p class="contacts__adress"><b>Приезжайте в гости:</b><a href="https://goo.gl/maps/mviAc69wfHA2">ул. Большая Конюшенная, 19/8</a>
+        </section>
       </footer>
     </main>
 
