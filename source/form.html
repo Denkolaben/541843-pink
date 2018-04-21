@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Пинк</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <a class="main-header__logo logo" href="#">
+        <img class="logo__img" src="http://placehold.it/150x100" width="75" height="22" alt="Логотип сайта Pink">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button"></button>
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item">
+            <a href="#">Главная</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Фотографии</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Конкурс</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">HTML Academy</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+
+      <section class="promo-form">
+        <p class="promo-form__intro-text">Конкурс на самое безбашенное путешествие с Пинк</p>
+        <p class="promo-form__info-text">Поделитесь своей историей и получите шанс выиграть ценный приз - 1000 миль на вашу бонусную карту!</p>
+        <form class="promo-form__form form" action="https://echo.htmlacademy.ru" method="post">
+          <div class="form__wrap">
+            <label>Фамилия:<input class="form__surname input input--text" name="surname" type="text" placeholder="Укажите фамилию*"></label>
+            <label>Имя:<input class="form__name input--text" name="name" type="text" placeholder="Введите ваше имя*"></label>
+            <label>Отчество:<input class="form__middle-name input--text" name="middle-name" type="text" placeholder="Ну и отчество тоже"></label>
+          </div>
+          <div class="form__wrap form__wrap--background-grey95">
+            <p class="form__description">Ваши безбашенные достижения в путешествиях</p>
+            <label><input class="form__achievements checkbox" type="checkbox" name="achievement-check" value="selfie-shark" checked>Сделать селфи с акулой</label>
+            <label><input class="form__achievements checkbox" type="checkbox" name="achievement-check" value="sunburn" checked>Обгорел на пляже</label>
+            <label><input class="form__achievements checkbox" type="checkbox" name="achievement-check" value="chuck-norrise">Видел Чака Норриса</label>
+            <label><input class="form__achievements checkbox" type="checkbox" name="achievement-check" value="souvenier">Накупил сувенирова</label>
+            <label><input class="form__achievements checkbox" type="checkbox" name="achievement-check" value="tower-defence" checked>Удержал башню</label>
+            <label><input class="form__achievements checkbox" type="checkbox" name="achievement-check" value="hotel-crash">Разгромил отель</label>
+          </div>
+          <div class="form__wrap">
+            <label>Номер телефона<input class="form__tel input input--tel" type="tel" placeholder="Номер, пожалуйста"></label>
+            <label>Адрес почты<input class="form__email input input--email" type="email" placeholder="Введите почту*"></label>
+          </div>
+          <div class="form__wrap form__wrap--background-grey95">
+            <p class="form__description">С каким приложением путешествовали?</p>
+            <label><input class="form__app radio" type="radio" name="ios" value="ios" checked>Pink для iOS</label>
+            <label><input class="form__app radio" type="radio" name="android" value="android">Pink на Android</label>
+            <label><input class="form__app radio" type="radio" name="windows" value="windows">Windows Phone</label>
+          </div>
+          <div class="form__wrap">
+            <label>Опишите свои эмоции
+            <textarea name="comment" id="comment-field" rows="7">Можно прям в красках, не стесняясь в выражениях</textarea></label>
+          </div>
+          <button class="form__submit-button" type="submit">Отправить форму</button>
+        </form>
+        <p>*-Обязательные поля</p>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <div class="main-footer__logo logo">
+        <svg class="logo_glass-icon"></svg><a class="logo__logo-image logo logo--black-fill"><img class="logo__logo-image" src="http://placehold.it/150x100" width="75" height="22" alt="Логотип сайта Pink"></a>
+      </div>
+      <ul class="main-footer__social social">
+        <li class="social__item">
+          <a class="social__link" aria-label="Twitter" href="#">
+          </a>
+        </li>
+        <li class="social__button">
+          <a class="social__link" aria-label="Facebook" href="#">
+          </a>
+        </li>
+        <li class="social__button">
+          <a class="social__link" aria-label="Youtube" href="#">
+          </a>
+        </li>
+      </ul>
+      <p class="main-footer__copyright copyright">Разработано <svg></svg></p>
+    </footer>
+  </body>
+</html>

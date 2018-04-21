@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Пинк</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <a class="main-header__logo logo" href="#">
+        <img class="logo__img" src="http://placehold.it/150x100" width="75" height="22" alt="Логотип сайта Pink">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button"></button>
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item">
+            <a href="#">Главная</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Фотографии</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Конкурс</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">HTML Academy</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="photo-main">
+      <p class="photo-main__intro">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
+
+      <article class="photo-main__item photo">
+        <img class="photo__img" src="http://placehold.it/150x100" width="75" height="22" alt="Панорама дня">
+        <cite class="photo__name">Анна</cite><span class="photo-item__time">(5 минут назад)</span>
+        <p class="photo__comment">Прыгать или нет? Напишите в коментарии свой своет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
+        <svg class="photo__icon"></svg><p class="photo-item__likes">Нравится: 215</p>
+      </article>
+
+      <article class="photo-main__item photo">
+        <img class="photo__img" src="http://placehold.it/150x100" width="75" height="22" alt="Автомобиль">
+        <cite class="photo__name">Левон</cite><span class="photo-item__time">(5 часов назад)</span>
+        <p class="photo__comment">Вчера он на луну летал, сегодня в руки к нам попал.</p>
+        <svg class="photo__icon"></svg><p class="photo-item__likes">Нравится: 356</p>
+      </article>
+
+      <article class="photo-main__item photo">
+        <img class="photo__img" src="http://placehold.it/150x100" width="75" height="22" alt="Ударная установка">
+        <cite class="photo__name">Антон</cite><span class="photo-item__time">(12 часов назад)</span>
+        <p class="photo__comment">Соседи будут рады!</p>
+        <svg class="photo__icon"></svg><p class="photo-item__likes">Нравится: 666</p>
+      </article>
+
+      <article class="photo-main__item photo">
+        <img class="photo__img" src="http://placehold.it/150x100" width="75" height="22" alt="Ударная установка">
+        <cite class="photo__name">Борис</cite><span class="photo-item__time">(20 часов назад)</span>
+        <p class="photo__comment">Здесь могла быть ваша цитата о высоком и вечном.</p>
+        <svg class="photo__icon"></svg><p class="photo-item__likes">Нравится: 215</p>
+      </article>
+
+      <article class="photo-main__item photo">
+        <img class="photo__img" src="http://placehold.it/150x100" width="75" height="22" alt="Ударная установка">
+        <cite class="photo__name">Сергей</cite><span class="photo-item__time">(25 часов назад)</span>
+        <p class="photo__comment">Самая кубанская в мире!</p>
+        <svg class="photo__icon"></svg><p class="photo-item__likes">Нравится: 4</p>
+      </article>
+
+      <article class="photo-main__item photo">
+        <img class="photo__img" src="http://placehold.it/150x100" width="75" height="22" alt="Ударная установка">
+        <cite class="photo__name">Максим</cite><span class="photo-item__time">(40 часов назад)</span>
+        <p class="photo__comment">Где снег-то</p>
+        <svg class="photo__icon"></svg><p class="photo-item__likes">Нравится: 150</p>
+      </article>
+
+      <article class="photo-main__item photo">
+        <img class="photo__img" src="http://placehold.it/150x100" width="75" height="22" alt="Ударная установка">
+        <cite class="photo__name">Надежда</cite><span class="photo-item__time">(45 часов назад)</span>
+        <p class="photo__comment">Всем GM и взаимные лайки!</p>
+        <svg class="photo__icon"></svg><p class="photo-item__likes">Нравится: 2560</p>
+      </article>
+
+      <p class="photo-main__outro">Затмите их всех! Выкладывайте все, что накопилось в телефоне!</p>
+
+      <section class="photo-filter">
+        <h2 class="visually-hidden">Фильтр для фотографий</h2>
+        <img class="photo-filter__img" src="http://placehold.it/150x100" width="75" height="22" alt="Зимний закат">
+        <svg class="photo-filter__tool-icon"></svg><svg class="photo-filter__tool-icon"></svg><svg class="photo-filter__tool-icon"></svg>
+        <div class="photo-filter__slider"></div>
+        <button class="photo-filter__button button" type="button">Запостить</button>
+        <button class="pphoto-filter__button button" type="button">Отмена</button>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <div class="main-footer__logo logo">
+        <svg class="logo_glass-icon"></svg><a class="logo__logo-image logo logo--black-fill"><img class="logo__logo-image" src="http://placehold.it/150x100" width="75" height="22" alt="Логотип сайта Pink"></a>
+      </div>
+      <ul class="main-footer__social social">
+        <li class="social__button">
+          <a class="social__link" aria-label="Twitter" href="#">
+            Twitter
+          </a>
+        </li>
+        <li class="social__button">
+          <a class="social__link" aria-label="Facebook" href="#">
+            Facebook
+          </a>
+        </li>
+        <li class="social__button">
+          <a class="social__link" aria-label="Youtube" href="#">
+            Youtube
+          </a>
+        </li>
+      </ul>
+      <p class="main-footer__copyright copyright">Разработано <svg></svg></p>
+    </footer>
+  </body>
+</html>
