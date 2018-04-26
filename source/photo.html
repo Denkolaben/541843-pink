@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Пинк</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
     <header class="main-header">
@@ -13,21 +14,23 @@
         <button class="main-nav__toggle" type="button"></button>
         <ul class="main-nav__list site-list">
           <li class="site-list__item">
-            <a href="#">Главная</a>
+            <a class="site-list__link" href="index.html">Главная</a>
           </li>
           <li class="site-list__item">
-            <a href="#">Фотографии</a>
+            <a class="site-list__link" href="#">Фотографии</a>
           </li>
           <li class="site-list__item">
-            <a href="#">Конкурс</a>
+            <a class="site-list__link" href="form.html">Конкурс</a>
           </li>
           <li class="site-list__item">
-            <a href="#">HTML Academy</a>
+            <a class="site-list__link" href="https://htmlacademy.ru/">HTML Academy</a>
           </li>
         </ul>
       </nav>
     </header>
     <main class="photo-main">
+      <p class="photo-main__header">Фотографии пользователей</p>
+
       <p class="photo-main__intro">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
 
       <article class="photo-main__item photo">
@@ -86,8 +89,8 @@
         <img class="photo-filter__img" src="http://placehold.it/150x100" width="75" height="22" alt="Зимний закат">
         <svg class="photo-filter__tool-icon"></svg><svg class="photo-filter__tool-icon"></svg><svg class="photo-filter__tool-icon"></svg>
         <div class="photo-filter__slider"></div>
-        <button class="photo-filter__button button" type="button">Запостить</button>
-        <button class="pphoto-filter__button button" type="button">Отмена</button>
+        <button class="photo-filter__button button button--pink" type="button">Запостить</button>
+        <button class="pphoto-filter__button button button--grey" type="button">Отмена</button>
       </section>
     </main>
 
@@ -96,17 +99,17 @@
         <svg class="logo_glass-icon"></svg><a class="logo__logo-image logo logo--black-fill"><img class="logo__logo-image" src="http://placehold.it/150x100" width="75" height="22" alt="Логотип сайта Pink"></a>
       </div>
       <ul class="main-footer__social social">
-        <li class="social__button">
+        <li class="social__item">
           <a class="social__link" aria-label="Twitter" href="#">
             Twitter
           </a>
         </li>
-        <li class="social__button">
+        <li class="social__item">
           <a class="social__link" aria-label="Facebook" href="#">
             Facebook
           </a>
         </li>
-        <li class="social__button">
+        <li class="social__item">
           <a class="social__link" aria-label="Youtube" href="#">
             Youtube
           </a>
